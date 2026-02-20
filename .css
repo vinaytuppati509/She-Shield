@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #4B0082, #2E003E);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.status.safe {
+  color: #00ffae;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.swipe-area {
+  margin-top: 20px;
+  background: #00BFA6;
+  height: 50px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.swipe-btn {
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: #4B0082;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert-title {
+  color: #ff4d4d;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff4d4d;
+  color: white;
+  cursor: pointer;
+}
