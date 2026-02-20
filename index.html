@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Silent Circle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h2>🛡 Silent Circle</h2>
+      <p class="status safe">Status: SAFE</p>
+    </header>
+
+    <div class="card">
+      <h3>Proximity Shield Mode</h3>
+      <p>Swipe if you feel unsafe</p>
+      <div class="swipe-area" id="swipeArea">
+        <div class="swipe-btn" id="swipeBtn">→</div>
+      </div>
+    </div>
+
+    <div id="alertScreen" class="hidden">
+      <h3 class="alert-title">🚨 Shield Activated</h3>
+      <p>Live Location Shared</p>
+      <div class="responders">
+        <div>👤 Responder 1 - 250m away</div>
+        <div>👤 Responder 2 - 400m away</div>
+        <div>👤 Responder 3 - 600m away</div>
+      </div>
+      <button onclick="resetShield()">End Incident</button>
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
